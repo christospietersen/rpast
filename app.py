@@ -8,7 +8,7 @@ st.set_page_config(page_title="RPAS Travel Log", page_icon="🚗")
 st.title("🚗 RPAS Projects Travel Log")
 
 # --- PASTE YOUR NEW GOOGLE SHEET LINK HERE ---
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1TaifuQ_yR0s78bP0N8foY_0NJ31xTu9AYilWIrpjXns/edit?gid=0#gid=0"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1YFFbNzBC4XSHeIiDHjePtodpObBttpIV6QcC07g61hA/edit?gid=0#gid=0"
 
 # --- CONNECT TO GOOGLE SHEETS ---
 conn = st.connection("gsheets", type=GSheetsConnection)
